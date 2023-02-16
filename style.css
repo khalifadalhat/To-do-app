@@ -1,0 +1,98 @@
+*:before, :after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(black,gray , white);
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #292a2a;
+
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #00050a;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 3%;
+    background-color: #00050a;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 17%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'poppins' ,sans-serif;
+}
+#tasks{
+    border-radius: 10px;
+    width: inherit;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: #feffff;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.close{
+    color: #e21a1a;
+    cursor: pointer;
+    outline: none;
+    font-size: x-large;
+}
+.infoo section{
+    flex: 30%;
+    padding: 1.5em 2em;
+    margin-top: 30%;
+}
+.copy{
+    text-align: center;
+    color: #000000;
+}
